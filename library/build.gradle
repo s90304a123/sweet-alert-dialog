@@ -8,10 +8,6 @@ android {
     defaultConfig {
         minSdkVersion 9
     }
-
-    lintOptions {
-        abortOnError false
-    }
 }
 
 dependencies {
