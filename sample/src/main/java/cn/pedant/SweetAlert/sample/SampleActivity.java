@@ -23,20 +23,28 @@ public class SampleActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.warning_cancel_test).setOnClickListener(this);
         findViewById(R.id.custom_img_test).setOnClickListener(this);
         findViewById(R.id.progress_dialog).setOnClickListener(this);
+        findViewById(R.id.a_text_only).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.a_text_only:
+                new SweetAlertDialog(this)
+                        .setContentText("It's pretty, isn't it?")
+                        .show();
+                break;
             case R.id.basic_test:
                 // default title "Here's a message!"
                 SweetAlertDialog sd = new SweetAlertDialog(this);
+                sd.setTitleText("Here's a message!");
                 sd.setCancelable(true);
                 sd.setCanceledOnTouchOutside(true);
                 sd.show();
                 break;
             case R.id.under_text_test:
                 new SweetAlertDialog(this)
+                        .setTitleText("Here's a message!")
                         .setContentText("It's pretty, isn't it?")
                         .show();
                 break;

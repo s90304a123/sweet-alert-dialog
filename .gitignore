@@ -1,0 +1,11 @@
+.idea/misc.xml
+.idea/gradle.xml
+.idea/workspace.xml
+local.properties
+library/build/
+sample/build/
+.idea/
+.gradle/
+sw.iml
+sample/sample.iml
+library/library.iml
