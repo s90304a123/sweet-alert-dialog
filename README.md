@@ -6,11 +6,19 @@ SweetAlert for Android, a beautiful and clever alert dialog
 
 2.修改預設標題文字隱藏，可以只顯示內容文字，或是只顯示標題文字。
 
-
-[![](https://jitpack.io/v/pedant/sweet-alert-dialog.svg)](https://jitpack.io/#pedant/sweet-alert-dialog)
+[![](https://jitpack.io/v/s90304a123/sweet-alert-dialog.svg)](https://jitpack.io/#s90304a123/sweet-alert-dialog)
 
 [https://github.com/pedant/sweet-alert-dialog](https://github.com/pedant/sweet-alert-dialog)
 
+**Gradle**
+
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        implementation 'com.github.s90304a123:sweet-alert-dialog:v1.3.2'
+    }
 
 [more android tech shares: pedant.cn](http://www.pedant.cn)
 
